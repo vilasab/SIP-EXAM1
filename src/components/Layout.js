@@ -2,14 +2,14 @@ import { Outlet, Link } from "react-router-dom";
 const Layout = () => {
     return (
       <>
-       <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+       <nav class="navbar navbar-expand-lg navbar-light ">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Padaku</a>
+    <a class="navbar-brand" href="#">Study Hub</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-decoration-n">
         <li class="nav-item">
           <button class="btn"><Link to="/">Home</Link></button>
         </li>
@@ -26,6 +26,7 @@ const Layout = () => {
     </div>
   </div>
 </nav>
+
   
         <Outlet />
       </>
